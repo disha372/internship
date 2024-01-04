@@ -1,0 +1,12 @@
+@Entity
+public class Task {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    // Add other fields (title, description, status, dueDate, etc.)
+
+    // Constructors, getters, setters
+}
+
+public interface TaskRepository extends JpaRepository<Task, Long> {
+}

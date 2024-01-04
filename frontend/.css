@@ -1,0 +1,65 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style for the header */
+h1 {
+    color: #333;
+}
+
+/* Style for the task form */
+#taskForm {
+    margin-bottom: 20px;
+}
+
+#taskForm input[type="text"],
+#taskForm input[type="date"],
+#taskForm button {
+    padding: 8px;
+    margin: 5px;
+    width: calc(100% - 18px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#taskForm input[type="text"],
+#taskForm input[type="date"] {
+    width: calc(50% - 18px);
+}
+
+#taskForm button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+#taskForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the task list */
+#taskList {
+    text-align: left;
+}
+
+/* Style for individual tasks in the list */
+.task-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.task-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.task-item p {
+    margin-bottom: 5px;
+    color: #555;
+}
